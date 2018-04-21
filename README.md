@@ -6,7 +6,7 @@
 - zeppelin-solidity@1.8.0
 - Metamask
 
-#### This BBS is using **Ropsten** blockchain as a database. You need to use a browser with Metamask installed. 
+#### This BBS is using **Ropsten** blockchain as a database. You need to use a browser with [Metamask](https://metamask.io/) installed. 
 
  Use only when you understand nature of blockchain and confirm that your __metamask__ is connected to Ropsten network. 
  Any transaction mistakenly completed are on your responsibility. 
