@@ -15,3 +15,12 @@
 
 
 ##### Please bear the ugliness of the code and UI. Next time, I will use React or some kind of framework and add more interactivity!
+
+![alt text](images/1.png)
+
+
+![alt text](images/2.png)
+
+
+![alt text](images/tip.png)
+You can send tip to each other.
