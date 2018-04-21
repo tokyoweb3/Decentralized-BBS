@@ -5,3 +5,4 @@ truffle.js
 .DS_Store
 truffle-config.js
 cryptoBoard_dev.js
+*.json

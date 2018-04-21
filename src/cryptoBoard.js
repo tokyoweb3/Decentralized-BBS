@@ -284,8 +284,8 @@ const CONTRACT_ABI =[
 //const CONTRACT_ADDRESS = '0x8f0483125fcb9aaaefa9209d8e9d7b9c8b9fb90f';
 //ROPSTEN
 //for test use only
-const CONTRACT_ADDRESS = '0x229fa7f3d38f905c2503c8d6d8c952828c9ac59c';
-//const CONTRACT_ADDRESS = '0xaaecdf8348132bd2b0e12253a5a3211b9331db0e';
+//const CONTRACT_ADDRESS = '0x229fa7f3d38f905c2503c8d6d8c952828c9ac59c';
+const CONTRACT_ADDRESS = '0xaaecdf8348132bd2b0e12253a5a3211b9331db0e';
 //Rinkeby
 //const 0x1263451ecf736ba95b94af74ee70aa84eb855294;
 let Cryptoboard =  web3.eth.contract(CONTRACT_ABI).at(CONTRACT_ADDRESS);
