@@ -1,0 +1,43 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <script src='./jquery-3.2.1.min.js'></script>
+        <!-- <script src='../node_modules/web3/dist/web3.min.js'></script> -->
+        <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head> 
+    <body>
+        <div id='user-info'>
+            <div id='address'></div>
+            <div id='balance'></div>        
+        </div>
+        <p style="color:#ff6c4e; padding-left: 5%;">This BBC runs on Ropsten network. Do not use Main network!</p>
+        <div id='post'>
+            <div id="networkStatus"></div>
+            <input id='nickname' placeholder="Nickname" value="NoNameCoder" maxlength="10"> <br>
+            <input id='message' placeholder="Message"> <br>
+            <button class="button" type='submit' id='button'>Submit</button>
+            <div id='txStatus'></div>
+            <div id="information"></div>
+
+        </div>
+        <div id='myModal'  class="modal">
+            <div  class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Please select the amount of gWei you want to send to: </h2>
+                <span id="send_to" style="color:#ff724d"></span><br>
+
+                <input id="tip_amount"> ETH <br>
+                <button id="confirm_tip">Confirm</button>
+            </div>
+        </div>
+        <div id='display'></div>
+        <script language='javascript' src='cryptoBoard.js'></script>
+
+
+    </body>
+    <footer>
+        <p id='myName' style="text-align: right; margin-right:5px;"> @2018  <a href='https://www.github.com/masaki1223' target="_blank">Masaki. </a> All Rights Reserved. </p>
+    </footer>
+</html>
+

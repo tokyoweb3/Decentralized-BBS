@@ -1,0 +1,7 @@
+secret_file.json
+truffle.js
+.idea/
+*.log
+.DS_Store
+truffle-config.js
+cryptoBoard_dev.js
