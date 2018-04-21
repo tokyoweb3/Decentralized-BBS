@@ -22,5 +22,6 @@
 ![alt text](images/2.png)
 
 
+## You can send tip to each other.
+
 ![alt text](images/tip.png)
-You can send tip to each other.
